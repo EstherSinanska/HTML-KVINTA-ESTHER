@@ -1,0 +1,18 @@
+h3{
+    color: burlywood;
+}
+q{
+    font-size: x-small;
+}
+i{
+    font-family: fantasy;
+    border: 3px solid black;
+    /* border robi ohranicenie elementu */
+    padding: 10px;
+    /* padding urcuje vzdialenost jednotlivych atributov alebo elementov */
+    /* v tomto pripade padding urcuje vzdialenost textu a border */
+    margin: 50px;
+    /* margin definuje vzdialenost navonok  */
+    /* v tomto pripade definuje vzdialenost bordru a textu od predchadzajuceho elementu */
+    
+}   
