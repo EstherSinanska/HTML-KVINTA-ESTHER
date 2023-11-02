@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="link-css.css">
+    </head>
     <body>
         <a href="https://sk.wikipedia.org/wiki/Ma%C4%8Dka_dom%C3%A1ca">
             klikni tu
-        </a>
-        
+        </a><br>
+        <!-- default otvorenie v aktualnom tabe -->
+        <a href="https://sk.wikipedia.org/wiki/Ma%C4%8Dka_dom%C3%A1ca" target="_self">
+            klikni tu moznost self
+        </a> <br>
+        <!-- to iste ako default -->
+        <a href="https://sk.wikipedia.org/wiki/Ma%C4%8Dka_dom%C3%A1ca" target="_blank">
+            klikni tu moznost blank
+        </a><br>
+        <!-- stranku nam otvori v novom tabe -->
+        <a href="https://sk.wikipedia.org/wiki/Ma%C4%8Dka_dom%C3%A1ca" target="_parent">
+            klikni tu moznost parent
+        </a><br>
+        <!-- v tom istom okne -->
+        <a href="https://sk.wikipedia.org/wiki/Ma%C4%8Dka_dom%C3%A1ca" target="_top">
+            klikni tu moznost top
+        </a><br>
+
+        <a href="https://www.dneperska.sk/">
+            <img src="logo.jpg" alt="Dneperska skola" style="height: 50px; width: 50px;" >
+        </a><br>
+        <!-- treba tam dat ako prvu stranku ako preklik potom obrazok s 
+        jeho atributmi velkost sirka vyska a ukoncit to tagom -->
+        <a href="mailto:john.wick@assassin.com">Poslat mail</a>
+        <!-- povinna funkciaolita pre poslanie mailu potom nasleduje adresa daneho cloveka a text na ktory
+        ked clovek klikne otvori sa mu outlook(windows) -->
+        <br>
+        <button onclick="window.location.href-'//www.whitehouse.gov/administration/president-biden/'">Joe Biden</button>
+
+        <a href="https://www.dneperska.sk/" title="Skolska stranka">Skola Dneperska</a>
     </body>
 </html>
